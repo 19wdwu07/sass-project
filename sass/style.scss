@@ -1,8 +1,11 @@
 @import 'cssReset';
 @import 'variables';
+@import 'mixins';
 @import 'images';
 @import 'nav';
 @import 'icons';
+@import 'paragraph';
+@import 'buttons';
 
 
 body{
@@ -11,5 +14,5 @@ body{
 }
 h1{
   padding: $padding;
-  margin: 10*$margin;
+  margin: 10*$margin + 30px;
 }

@@ -7,8 +7,7 @@
 
 .imgDiv {
   width: 80%;
-  margin: auto;
-  border: 1px solid white; }
+  margin: auto; }
 
 .logoImg {
   width: 150px;
@@ -17,7 +16,7 @@
 
 nav {
   padding: 45px;
-  background: lightblue;
+  background: cyan;
   border: 2px solid green;
   width: 200px;
   height: 100vh;
@@ -38,12 +37,43 @@ nav {
   font-size: 40px;
   margin: 45px; }
 
+.para {
+  width: 80%;
+  padding: 20px;
+  margin: auto; }
+
+.para11, ul, .para21 {
+  width: 48%;
+  float: left;
+  line-height: 30px; }
+
+.para11, ul {
+  margin-right: 50px; }
+
+.clearFix {
+  content: "";
+  clear: both;
+  display: table; }
+
+h2 {
+  margin: 20px 0px; }
+
+/* inheritance of style from .para11 */
+ul {
+  margin-left: 210px; }
+
+.btn {
+  width: 80px;
+  height: 30px;
+  background: #333;
+  color: white; }
+
 body {
-  background: lightblue;
+  background: cyan;
   color: green; }
 
 h1 {
   padding: 15px;
-  margin: 150px; }
+  margin: 180px; }
 
 /*# sourceMappingURL=style.css.map */
