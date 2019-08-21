@@ -21,7 +21,7 @@ h2{
   margin:20px 0px;
 }
 /* inheritance of style from .para11 */
-ul{
+ul.tools{
   @extend .para11;
-  margin-left: 20px;
+  margin-left: 210px;
 }
